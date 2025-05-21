@@ -1,0 +1,62 @@
+@media screen and (min-width: 320px) {
+    .featurres {
+
+        padding: 1, 5em;
+        flex-wrap: wrap;
+        margin: 1%;
+        color: blue;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .featurres {
+        color: red;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+    .featurre {
+        margin: 3%;
+        padding: 2em;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        color: chartreuse;
+
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .featurre {
+        position: fixed;
+        margin: 0%;
+        color: blue;
+        flex-direction: column-reverse;
+        padding: 2%;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .featurre {
+        padding-right: 0%;
+        flex-direction: row;
+        color: brown;
+        margin: 3%;
+        position: relative;
+
+
+    }
+
+}
+
+@media screen and (min-width:1075px) {
+    .featurre {
+        margin-top: 0%;
+        flex: auto;
+        padding: 1.5rem;
+        flex-direction: row;
+        position: fixed;
+    }
+}
